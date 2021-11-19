@@ -83,7 +83,9 @@ const DataDisplayer = ({userData,hasError,isLoading})=>{
                                 </div>
                                 <div class="flex">
                                     <img src={Twitter} alt="" />
-                                    {twitter_username ? <a href ={twitter_url}></a>: "Not Provided"}
+                                    {twitter_username ? <a href ={twitter_url}>
+                                        {twitter_username}
+                                    </a>: "Not Provided"}
                                 </div>
                                 <div class="flex">
                                     <img src={Website} alt="" />
